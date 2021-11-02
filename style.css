@@ -1,0 +1,22 @@
+#meme-image-container{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: black solid 1px;
+}
+
+#meme-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#meme-text {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-size: 30px;
+  top: 90px;
+}
